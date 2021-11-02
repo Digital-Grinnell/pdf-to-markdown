@@ -33,7 +33,6 @@ def extract_paragraph_text( ):
 
     paragraph = ""
     paragraphs = []
-    p_index = 0
 
     for page in range(page_count):
         p = l1.get_text_for_page(page)
